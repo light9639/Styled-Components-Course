@@ -20,12 +20,12 @@ npm create vite@latest
 yarn create vite
 ```
 - 터미널에서 실행 후 프로젝트 이름 만든 후 React 선택, Typescirpt 선택하면 생성 완료.
-## 🚤 Redux-Toolkit 설치
-- Redux-Toolkit 설치 명령어
+## 🚤 Styled-Components, react-router-dom 설치
+- `styled-components`, 'react-router-dom' 설치하기.
 ```bash
-npm install redux react-redux @reduxjs/toolkit
+npm install styled-components react-router-dom styled-normalize
 # or
-yarn add redux react-redux @reduxjs/toolkit
+yarn add styled-components react-router-dom styled-normalize
 ```
 
 ## ✒️ main.tsx, App.tsx, GlobalStyle.ts 수정 및 작성
