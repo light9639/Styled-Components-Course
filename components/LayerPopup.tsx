@@ -147,9 +147,9 @@ export default function LayerPopup({
   }, [userVisible, visible]);
 
   if (!animate && !userVisible) return null;
-  
+
   return (
-    <Popup disappear={!visible} onAnimationEnd={() => {setAnimate(false)}}>
+    <Popup disappear={!visible} onAnimationEnd={() => { setAnimate(false) }}>
       <PopupContents disappear={!visible}>
         <strong>{title}</strong>
         <p>{children}</p>
@@ -173,7 +173,7 @@ export default function LayerPopup({
 
 LayerPopup.defaultProps = {
   title: '안녕하세요',
-  children: 'Lorem Ipsum Dolor Sit Amet?',
+  children: 'Styled-Components를 이용한 예제입니다.',
   cancelButton: '취소',
   confirmButton: '확인'
 };
